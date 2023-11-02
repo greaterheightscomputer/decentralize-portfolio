@@ -40,10 +40,21 @@ function App() {
 
       <div className="header">
         {
+          //- let build the dapp like this
+          //C:\computerd\Decentralize-Portfolio\startercode\client> npm run build
           //MetaMask deep link generator
           //- to make metamask available on your dapp while on mobile screen go to https://metamask.github.io/metamask-deeplinks/
           //- click on Open a dapp button
           //- enter your dApp url inside the input field and click on Generate URL
+
+          //- let deploy the dapp to github
+          //*  C:\computerd\Decentralize-Portfolio\startercode\client> git init
+          //*  C:\computerd\Decentralize-Portfolio\startercode\client> git add .
+          //*  C:\computerd\Decentralize-Portfolio\startercode\client> git commit -m "decentralize portfolio"
+          //*  C:\computerd\Decentralize-Portfolio\startercode\client> git branch -M main
+          //*  C:\computerd\Decentralize-Portfolio\startercode\client> git remote add origin https://github.com/greaterheightscomputer/decentralize-portfolio.git
+          //*  C:\computerd\Decentralize-Portfolio\startercode\client> git push -u origin main
+          //let deploy the dapp to Net
 
           isAndroid && (
             <button className="connectBTN">
